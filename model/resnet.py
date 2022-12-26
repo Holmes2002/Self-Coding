@@ -17,7 +17,7 @@ model_urls = {
     "resnet18": "/path/to/resnet18.pth",
     "resnet34": "/path/to/resnet34.pth",
     "resnet50": "/path/to/resnet50.pth",
-    "resnet101": "C:/Users/user/Documents/Holmes/Internships/Segmentation/Self-Coding/resnet101.pth",
+    "resnet101": "/content/drive/MyDrive/images/resnet101.pth",
     "resnet152": "/path/to/resnet152.pth",
 }
 
