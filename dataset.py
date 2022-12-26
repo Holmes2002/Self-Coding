@@ -25,7 +25,7 @@ class customs_dset(Dataset):
         self.data_custom = self.data_custom+self.data_custom[:remainder]
         self.data_LIP = open(cfg['train']['data_LIP'],'r').read().splitlines()
         self.transform = trs_form
-        self.data_root=''
+        self.data_root='/content/drive/MyDrive/images/images_seg'
         self.list_sample=self.data_custom+self.data_LIP
     def img_loader(self, path, mode):
         with open(path, "rb") as f:
@@ -50,7 +50,7 @@ class customs_dset_unsup(Dataset):
         super(customs_dset_unsup, self)
         self.root=''
         self.transform = trs_form
-        self.data_root=''
+        self.data_root='/content/drive/MyDrive/images/images_seg'
         self.list_sample_new=open('unlabeled.txt','r').read().splitlines()
     def img_loader(self, path, mode):
         with open(path, "rb") as f:
