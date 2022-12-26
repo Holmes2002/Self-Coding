@@ -1,4 +1,12 @@
-small_fol/train_images/img_0536.jpg
-small_fol/train_images/img_0537.jpg
-small_fol/train_images/img_0538.jpg
-small_fol/train_images/img_0539.jpg
+997_1.jpg
+997_2.jpg
+997_3.jpg
+997_4.jpg
+997_1.jpg
+997_2.jpg
+997_3.jpg
+997_4.jpg
+997_1.jpg
+997_2.jpg
+997_3.jpg
+997_4.jpg
