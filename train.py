@@ -152,10 +152,10 @@ def train(
         lr = lr_scheduler.get_lr()
         learning_rates.update(lr[0])
         lr_scheduler.step()
-        image_u, _ = loader_u_iter.next()
+        image_u, _ = next(loader_u_iter)
         image_u = image_u.cuda()
 
-        image_l, label_l = loader_l_iter.next()
+        image_l, label_l = next(loader_l_iter)
         batch_size, h, w = label_l.size()
         image_l, label_l = image_l.cuda(), label_l.cuda()
         if True:
