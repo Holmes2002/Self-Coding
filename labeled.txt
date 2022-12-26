@@ -1,0 +1,2 @@
+small_fol/train_images/capture_0_frame_40_1_orig.jpg
+small_fol/train_images/capture_0_frame_40_6_orig.jpg

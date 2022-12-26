@@ -1,0 +1,4 @@
+small_fol/train_images/img_0536.jpg
+small_fol/train_images/img_0537.jpg
+small_fol/train_images/img_0538.jpg
+small_fol/train_images/img_0539.jpg
